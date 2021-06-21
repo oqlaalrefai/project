@@ -48,4 +48,4 @@ let v = prompt('Am I footballer ?')
         alert("no I'ms")
         console.log('why No?'+ v);
     }
-document.write('thanks for your visitted')
+document.write('thanks for your visitted');

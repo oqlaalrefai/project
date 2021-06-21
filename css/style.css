@@ -1,8 +1,10 @@
 p{
-    
+        background-color: green;
+        color:white;
         font-family: "Times New Roman", Times, serif;
   }
 h1 {
-    background-color: green;
+    background-color: silver;
+    color: black;
   }
   
