@@ -6,7 +6,7 @@ let a = prompt('please enter your name')
 alert('welcom ' + a)
 let y = prompt('Am I from Jordan?')
 switch(y.toLowerCase()){
-    case 'yes':
+    case 'yes'|| 'y':
         alert('well guessed ')
         score = score +1
         console.log('jordannad ?'+ y);
@@ -18,7 +18,7 @@ default :
 }
 let z = prompt('is the Iceland my favourite country ?')
 switch(z.toLowerCase()){
-    case 'yes':
+    case 'yes' ||'y':
         alert('exactly')
         score = score +1;
         console.log('iceland ?'+ z);
@@ -29,7 +29,7 @@ switch(z.toLowerCase()){
         console.log('iceland ?'+ z);
 }
 let x = prompt("is my age above 30 ?");
-if(x.toLowerCase() == "no"){
+if(x.toLowerCase() == "no"||x.toLowerCase() =='n'){
 alert('True I have 26 years');
 score =score +1;
 console.log('above 20 ?'+ x);
@@ -41,18 +41,18 @@ console.log('above 30 let?'+ x);}
 
 let n = prompt("Am I madridesta?")
 switch(n){
-    case 'yes':
+    case 'yes'|| 'y':
         alert("yes I'm")
         score =score +1;
         console.log('madridesta?'+ n);
         break;
     default:
-        alert("NOOOOO")
+        alert("you are wrong")
         score =score +1;
         console.log('madridesta?'+ n);
 }
 let v = prompt('Am I footballer ?')
-    if (v.toLowerCase()) 
+    if (v.toLowerCase()=='yes'||v.toLowerCase()=='y') 
     {  
         alert("yes I'm")
         score =score +1;
@@ -64,7 +64,7 @@ let v = prompt('Am I footballer ?')
         console.log('why No?'+ v);
     }
 
-document.write('thanks for your visitted'+a);
+
 
 let counter = 1;
 
@@ -119,5 +119,5 @@ console.log('no attempt any more');}
 alert('your score is '+ score +' out of 7');
 console.log('your score is '+ score+' out of 7');
 
-document.write('thanks for your visitted');
+document.write('thanks for your visitted'+a);
 
