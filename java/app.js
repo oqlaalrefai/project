@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 let score= 0;
-=======
+
 "use strict";
->>>>>>> 16e52d01c21ad0677b9743d019ba20a878bf3a47
+
 a = prompt('please enter your name')
 alert('welcom ' + a)
 let y = prompt('Am I from Jordan?')
@@ -64,7 +63,7 @@ let v = prompt('Am I footballer ?')
         score =score +0;
         console.log('why No?'+ v);
     }
-<<<<<<< HEAD
+
 document.write('thanks for your visitted'+a);
 
 let counter = 1;
@@ -119,6 +118,6 @@ if(i==6&&bb!=true){alert('no attempt any more'); score =score +0;
 console.log('no attempt any more');}
 alert('your score is '+ score +' out of 7');
 console.log('your score is '+ score+' out of 7');
-=======
+
 document.write('thanks for your visitted');
->>>>>>> 16e52d01c21ad0677b9743d019ba20a878bf3a47
+
