@@ -1,3 +1,4 @@
+"use strict";
 a = prompt('please enter your name')
 alert('welcom ' + a)
 let y = prompt('Am I from Jordan?')
