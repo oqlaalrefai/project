@@ -2,7 +2,7 @@
 
 "use strict";
 let score= 0;
-a = prompt('please enter your name')
+let a = prompt('please enter your name')
 alert('welcom ' + a)
 let y = prompt('Am I from Jordan?')
 switch(y.toLowerCase()){
